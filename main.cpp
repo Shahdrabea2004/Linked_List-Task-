@@ -47,10 +47,11 @@ public:
         }
 
         Node* temp=head;
-
-        while(temp!=NULL&&temp->data!=NodeOffSet-1)
+        int i=1;
+        while(temp!=NULL && i<NodeOffSet-1)
         {
             temp=temp->next;
+            i++;
 
         }
         if (temp==NULL)
@@ -285,6 +286,8 @@ int main()
     cout<<"\nElement of LinkedList 1 : ";
     obList1.Display();
     cout<<endl;
+    //obList1.IsnsertMiddelAndFirst(5,3);
+    //obList1.Display();
     //List 2
     int n2;
     cout<<"Enter count of number List 2 : ";
@@ -347,5 +350,8 @@ int main()
     cout << "\nElement of LinkedList After Union: ";
     obList3.Display();
     */
+
+
+
     return 0;
 }
