@@ -347,8 +347,5 @@ int main()
     cout << "\nElement of LinkedList After Union: ";
     obList3.Display();
     */
-
-
-
     return 0;
 }
